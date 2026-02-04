@@ -36,8 +36,8 @@ const App = () => {
   const dispatch = useDispatch();
 
   // 🔒 HARDCODED ADMIN CREDENTIALS
-  const ADMIN_EMAIL = "harigudipati66@gmail.com";
-  const ADMIN_PHONE = "9347659938";
+  const ADMIN_EMAIL = "padarthikirankumar8@gmail.com";
+  const ADMIN_PHONE = "9392404394";
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, async (user) => {
