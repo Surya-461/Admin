@@ -42,7 +42,7 @@ const Home = () => {
                     Start Free Trial
                 </Link>
                 <a
-                    href="https://social-project-mauve.vercel.app/"
+                    href="https://premium-ruby-rho.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                     className="w-full sm:w-auto px-8 py-3.5 md:py-4 border border-slate-700 hover:bg-slate-800 hover:border-slate-600 rounded-xl font-bold text-base md:text-lg text-slate-300 transition-all flex justify-center items-center gap-2 group"
