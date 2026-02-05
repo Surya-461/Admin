@@ -395,7 +395,7 @@ const BuyerDashboard = () => {
                   <h3 className="text-xl font-bold text-white mb-2">Ready to Launch?</h3>
                   <p className="text-blue-200/70 text-sm mb-6">Your store environment is ready.</p>
                   <a 
-                    href="https://social-project-mauve.vercel.app/" 
+                          href="https://premium-ruby-rho.vercel.app/" 
                     target="_blank" 
                     rel="noreferrer" 
                     className="w-full py-3 bg-white text-slate-900 font-bold rounded-xl hover:bg-blue-50 transition-all flex items-center justify-center gap-2"

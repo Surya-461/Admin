@@ -92,10 +92,10 @@ const Contact = () => {
             <ContactCard 
               icon={FaPhone} 
               title="Call Support" 
-              info="+91 63031 25585" 
+              info="+91 93924 04394" 
               subInfo="Mon-Fri, 9am to 6pm IST"
               color="emerald"
-              href="tel:+916303125585"
+              href="tel:+919392404394"
             />
             <ContactCard 
               icon={FaMapMarkerAlt} 
