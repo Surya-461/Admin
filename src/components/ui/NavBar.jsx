@@ -80,14 +80,18 @@ const NavBar = () => {
     try {
       setProfileOpen(false);
       setMenuOpen(false);
-      await signOut(auth);
-      dispatch(logoutUser());
+
+      await signOut(auth); // Firebase logout
+      dispatch(logoutUser()); // Clear Redux state
+
       toast.success("Logged out successfully");
       navigate("/", { replace: true });
-    } catch {
+    } catch (error) {
+      console.error("Logout Error:", error);
       toast.error("Logout failed");
     }
   };
+
 
   const displayName = userData?.firstName 
     ? `${userData.firstName} ${userData.lastName || ''}` 
