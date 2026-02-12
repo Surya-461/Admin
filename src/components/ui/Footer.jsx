@@ -39,10 +39,10 @@ const Footer = () => {
               Empowering your business with top-tier digital solutions.
             </p>
             <div className="flex gap-3 pt-2">
-              <SocialLink href="https://www.facebook.com/share/17kmocoqxD/" icon={FaFacebookF} color="blue" />
-              <SocialLink href="https://github.com/GSH524" icon={FaTwitter} color="sky" />
-              <SocialLink href="https://www.linkedin.com/in/srihari-gudipati-0410a925a/" icon={FaLinkedinIn} color="indigo" />
-              <SocialLink href="https://www.instagram.com/_srihari_7___?igsh=MXRxY3NkcTlzZ2t1NA==" icon={FaInstagram} color="pink" />
+              <SocialLink href="https://www.facebook.com/" icon={FaFacebookF} color="blue" />
+              <SocialLink href="https://github.com/Surya-461" icon={FaTwitter} color="sky" />
+              <SocialLink href="https://www.linkedin.com/in/surya-kiran-kumar-padarthi-75a798314/" icon={FaLinkedinIn} color="indigo" />
+              <SocialLink href="https://www.instagram.com/i._.surya/" icon={FaInstagram} color="pink" />
             </div>
           </div>
 
